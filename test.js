@@ -1,10 +1,13 @@
-function x() {
-  var a = 10;
-  function y() {
-    var b = 10;
-  }
+console.log("Hello There");
+
+var a = 14824294;
+var b = 234626246;
+
+function multiply(a, b) {
+  const result = a * b;
+  return result;
 }
 
-console.log(a);
+var c = multiply(a, b);
 
-(function (module, require) {})();
+console.log("result it:", c);
